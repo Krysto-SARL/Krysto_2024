@@ -2,7 +2,7 @@ const products = [
   {
     _id: '1',
     name: 'Peignes grand modèle',
-    image: '/images/airpods.jpg',
+    image: '/images/peigne_gm.jpg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -15,7 +15,7 @@ const products = [
   {
     _id: '2',
     name: 'Peignes petit modèle',
-    image: '/images/phone.jpg',
+    image: '/images/peigne_pm.jpg',
     description:
       'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
     brand: 'Apple',
@@ -41,7 +41,7 @@ const products = [
   {
     _id: '4',
     name: 'Cache-pots',
-    image: '/images/playstation.jpg',
+    image: '/images/cache_pot.jpg',
     description:
       'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
     brand: 'Sony',
@@ -54,7 +54,7 @@ const products = [
   {
     _id: '5',
     name: 'Sous verres',
-    image: '/images/mouse.jpg',
+    image: '/images/sous_verre.jpg',
     description:
       'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
     brand: 'Logitech',
@@ -67,7 +67,7 @@ const products = [
   {
     _id: '6',
     name: 'Porte clefs mousqueton',
-    image: '/images/alexa.jpg',
+    image: '/images/mousqueton.jpg',
     description:
       'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
     brand: 'Amazon',
@@ -80,7 +80,7 @@ const products = [
   {
     _id: '7',
     name: 'Porte-savons',
-    image: '/images/alexa.jpg',
+    image: '/images/porte_savon.png',
     description:
       'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
     brand: 'Amazon',
@@ -93,7 +93,7 @@ const products = [
   {
     _id: '8',
     name: 'bagues',
-    image: '/images/alexa.jpg',
+    image: '/images/bague.jpg',
     description:
       'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
     brand: 'Amazon',
@@ -106,7 +106,7 @@ const products = [
   {
     _id: '9',
     name: 'Jeux Jenga',
-    image: '/images/alexa.jpg',
+    image: '/images/jenga.jpg',
     description:
       'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
     brand: 'Amazon',
@@ -119,7 +119,7 @@ const products = [
   {
     _id: '10',
     name: 'Bracelets',
-    image: '/images/alexa.jpg',
+    image: '/images/bracelets.jpg',
     description:
       'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
     brand: 'Amazon',

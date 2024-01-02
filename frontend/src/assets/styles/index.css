@@ -46,7 +46,11 @@ header {
   text-overflow: ellipsis; /* Add ellipsis for long text */
   white-space: nowrap; /* Prevent wrapping */
 }
-
+.image-product{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
 table td,
 table th {
   text-align: center;
@@ -75,3 +79,5 @@ table th {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
+
