@@ -22,12 +22,14 @@ header {
   object-fit: cover;
 }
 
+
+/* ===================================== Rating components */
 .rating span {
   margin: 0.1rem;
 }
 
 .rating svg {
-  color: #f8e825;
+  color: #7EC7B8;
 }
 
 .rating-text {
@@ -35,6 +37,8 @@ header {
   font-weight: 600;
   padding-left: 0.5rem;
 }
+
+/* ===================================== Product components */
 
 .product-title {
   height: 2.5em; /* Set a fixed height */
