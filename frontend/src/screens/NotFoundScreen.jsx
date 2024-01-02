@@ -1,12 +1,13 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
+import { Container, Row, Col , button} from 'react-bootstrap'
 const NotFoundScreen = () => {
   return (
     <>
-    <h1>OUPS</h1>
-<h2>La page que vous demandée n'existe pas</h2>
+      <h1>OUPS</h1>
+      <h2>La page que vous demandée n'existe pas</h2>
 
-<button>Retour</button>
+      <Link className='btn btn-light my-3' to="/"> Retour</Link>
     </>
   )
 }
