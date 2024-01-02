@@ -8,9 +8,7 @@ import { FaBackward } from 'react-icons/fa'
 const ProductScreen = () => {
   const { id: productId } = useParams()
   const product = products.find((p) => p._id === productId)
-  console.log('====================================')
-  console.log(product)
-  console.log('====================================')
+  
 
   return (
     <>
