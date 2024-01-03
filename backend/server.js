@@ -6,6 +6,7 @@ dotenv.config()
 import connectDB from './config/db.js'
 
 import products from './data/products.js'
+import services from './data/subscriptions.js'
 
 const port = process.env.PORT || 5000
 
@@ -18,6 +19,9 @@ app.get('/', (req, res) => {
 
 app.get('/api/products', (req, res) => {
   res.json(products)
+})
+app.get('/api/services', (req, res) => {
+  res.json(services)
 })
 
 app.get('/api/products/:id', (req, res) => {

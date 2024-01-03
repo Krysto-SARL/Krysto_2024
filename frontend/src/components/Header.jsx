@@ -1,5 +1,5 @@
 import { Navbar, Nav, Container } from 'react-bootstrap'
-import { FaInfoCircle, FaUser } from 'react-icons/fa'
+import { FaBell, FaHome, FaInfoCircle, FaUser } from 'react-icons/fa'
 import { LinkContainer } from 'react-router-bootstrap'
 import logo from '../assets/logo.png'
 const Header = () => {
@@ -15,6 +15,16 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
+              <LinkContainer to="/">
+                <Nav.Link className="header_link">
+                  <FaHome /> Accueil
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/services">
+                <Nav.Link className="header_link">
+                  <FaBell /> Services
+                </Nav.Link>
+              </LinkContainer>
               <LinkContainer to="/About">
                 <Nav.Link className="header_link">
                   <FaInfoCircle /> A propos
